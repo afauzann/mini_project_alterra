@@ -1,0 +1,12 @@
+.titles {
+  display: flex;
+  flex: 1 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.badge {
+  --bs-badge-color: black;
+}
