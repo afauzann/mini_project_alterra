@@ -222,7 +222,12 @@ function Cart() {
         <div style={{ textAlign: "center" }}>
           <Space>
             <Link to={`/checkout`}>
-              <Button type="primary" shape="round" size={size}>
+              <Button
+                onClick={hapusAll}
+                type="primary"
+                shape="round"
+                size={size}
+              >
                 <IoBagCheckOutline />
                 Checkout
               </Button>
