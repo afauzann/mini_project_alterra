@@ -1,0 +1,16 @@
+.navbar-collapse {
+  flex-grow: 1;
+}
+
+.items {
+  color: #1088e9;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.style {
+  line-height: 35px;
+  background-color: #1088e9;
+  color: #fff;
+  text-align: center;
+}
